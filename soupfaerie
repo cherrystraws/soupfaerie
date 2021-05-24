@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+
+<style>
+body {
+	background: #ffcba4;
+  color: #555;
+  font-family: trebuchet ms,tahoma,sans-serif;
+}
+#intro, #container {
+	background: #fcf4f8;
+	border-radius: 10px;
+  padding: 25px;
+	width: 600px;
+}
+#intro {
+	margin: auto;
+  text-align: center;
+}
+#container {
+	margin: 25px auto;
+  text-align: center;
+}
+#container h1 {
+	font-family: trebuchet ms,tahoma,sans-serif;
+	font-size: 12pt;
+}
+.pet {
+	width: 70px;
+}
+.pet:hover {
+	opacity: 0.5;
+}
+.pet2 {
+opacity: 0.5; 
+width: 70px;
+}
+.itm img {
+	padding: 5px;
+	width: 45px;
+}
+a, a:visited {
+	border-radius: 5px;
+	color: #ff97cc;
+	padding: 5px 10px;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+	background: #fad0d8;
+  color: #fff;
+}
+h1, h2 {
+	color: #696e7d;
+	font-weight: 400;
+  margin: auto;
+	text-align: center;
+}
+h1 {
+	font-family: 'Rye', cursive;
+  font-size: 64pt;
+}
+.collapsible {
+	background: #fff;
+  border: none;
+  color: #999;
+  cursor: pointer;
+
+  font-size: 15pt;
+  margin: 10px auto;
+  padding: 18px;
+  text-align: center;
+  width: 100%;
+}
+  
+.active, .collapsible:hover {
+  background-color: #ffb3c9;
+  color: #ffb3c9;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fff;
+}
+
+.grmt {
+	border: 2px #fff solid;
+	opacity: 0.1;
+  padding: 5px;
+  width: 50px;
+}
+.grmt2 {
+	border: 2px #eee solid;
+  padding: 5px;
+  width: 50px;
+}
+</style>
+</head>
+<body>
+<div id="intro">
+  <h1>soupfaerie</h1>
+  <p>
+    <a href="https://neopetsclassic.com/userlookup/?user=soupfaerie">userlookup</a> <a href="https://neopetsclassic.com/gallery/view/?username=soupfaerie">gallery</a>
+  </p>
+  <p>
+  	hi im zehra jamie soup and im a kauboy.
+  </p>
+</div>
+
+<div id="container">
+  <h1>PETS</h1>
+  <p>
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Lutari/lutari_green_baby.gif" title="Avey">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Kau/kau_royalboy_baby.gif" title="Wesley">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Bruce/bruce_plushie_baby.gif" title="Soft">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Yurble/yurble_faerie_baby.gif" title="Girly">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Kougra/kougra_royalboy_baby.gif" title="Aslan">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Bruce/bruce_faerie_baby.gif" title="Soup">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Cybunny/cybunny_royalgirl_baby.gif" title="Hira">
+    <img class="pet2" src="https://neopetsclassic.com/images/pets/Kyrii/kyrii_plushie_baby.gif" title="Kelso">
+    <img class="pet" src="https://neopetsclassic.com/images/pets/Kau/kau_darigan_baby.gif" title="Fugazi">
+    <img class="pet2" src="https://neopetsclassic.com/images/pets/Cybunny/cybunny_halloween_baby.gif" title="Biafra">
+  </p>
+  <p>8/10 painted</p>
+  
+ 
+</div>
+
+<div id="container">
+  <h1>the galleries</h1>
+  
+  
+  <button class="collapsible">jamie's shrine</button>
+  <div class="content">
+    <p class="itm">
+      <img src="https://neopetsclassic.com/images/items/7313.gif">
+      <img src="https://neopetsclassic.com/images/items/snow_ice_coffee.gif">
+    </p>
+  </div>
+
+  <button class="collapsible">kau kau farms</button>
+  <div class="content">
+    <p class="itm">
+      <img src="https://neopetsclassic.com/images/items/pot_kau_darigan.gif">
+ 
+      <img src="https://neopetsclassic.com/images/items/book_kau_pies.gif">
+      <img src="https://neopetsclassic.com/images/items/fo_kaupie_red.gif">
+    </p>
+  </div>
+  
+  <button class="collapsible">brucicle emporium</button>
+  <div class="content">
+    <p class="itm">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_blunella.gif">
+ 
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_electric.gif">
+      <img src="https://neopetsclassic.com/images/items/food_brownbrucicle.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_chokato.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_flatfruit.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_gold.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_jelly.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_checkered.gif">
+      <img src="https://neopetsclassic.com/images/items/foo_brucicle_haunted.gif">
+      <img src="https://neopetsclassic.com/images/items/food_yellowbrucicle.gif">
+      <img src="https://neopetsclassic.com/images/items/food_greenbrucicle.gif">
+    </p>
+  </div>
+  
+  <button class="collapsible">wishlist</button>
+  
+  <div class="content">
+    <p class="itm">
+      <!-- 
+				<img src="" title="">
+			-->
+ 
+<img src="https://neopetsclassic.com/images/items/blue-kau-morphing-potion.gif" title="Blue Kau Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/15691.gif" title="Yellow Kau Morphing Potion">
+      <img src="http://images.neopets.com/items/potion_kau_plushie.gif" title="Plushie Kau Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/14785.gif" title="Baby Kau Morphing Potion">
+      <img src="https://neopetsclassic.com/images/items/food_rainbowbrucicle.gif" title="Fruity Brucicle">
+  
+    </p>
+  </div>
+</div>
+  
+  <h2><a href="/npc/index.html">back?</a></h2>
+
+  
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+  </body>
