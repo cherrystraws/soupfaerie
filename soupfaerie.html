@@ -174,6 +174,30 @@ b {
 .pp2:hover {
 	opacity: 1;
 }
+.item img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 5px;
+}
+.item span {
+    display: none;
+    float: left;
+    margin: 0;
+    padding: 1em;
+    background: #b185ff;
+    color: #fff;
+    font-weight: bold;
+    width: 270px;
+}
+.item:hover img{
+    border-color: #222;
+}
+.item:hover span {
+    display: block;
+}
+
 </style>
 </head>
 <body>
@@ -397,120 +421,33 @@ b {
   <h3>my galleries</h3>
   
   
-  <button class="collapsible">jamie's shrine</button>
+  <button class="collapsible">the hideaway</button>
   <div class="content">
+	  <center>soup + bruce related items.</center>
     <p class="itm">
 	    
-      <img src="https://neopetsclassic.com/images/items/7313.gif" title="Stained Glass Soup Faerie Window">
-	    <img src="https://neopetsclassic.com/images/items/faerieshroom_soup.gif" title="Soup Faerie Mushroom">
-	    <img src="http://images.neopets.com/items/foo_faerie_soupfaeriesoup.gif" title="Soup Faerie Soup">
-	    <img src="https://neopetsclassic.com/images/items/10972.gif" title="Pea and Lentil Soup">
-	    <img src="https://neopetsclassic.com/images/items/2935.gif" title="Potato and Sweetcorn Soup">
-	    <img src="https://neopetsclassic.com/images/items/10970.gif" title="Minestrone Soup">
-	    <img src="https://neopetsclassic.com/images/items/34101.gif" title="Onion and Sliced Mushroom Soup">
-	    <img src="https://neopetsclassic.com/images/items/13406.gif" title="Chunky Cauliflower Soup">
-	    <img src="https://neopetsclassic.com/images/items/34100.gif" title="Cucumber and Onion Soup">
-	    <img src="https://neopetsclassic.com/images/items/13422.gif" title="Apple Soup">
-	    <img src="https://neopetsclassic.com/images/items/waterfood_spagetti.gif" title="Spaghetti Soup">
-	    <img src="https://neopetsclassic.com/images/items/foo_batwing_soup.gif" title="Korbat Wing Soup">
-	    <img src="https://neopetsclassic.com/images/items/spf_rest_peas.gif" title="Rest in Pea Soup">
-	    <img src="https://neopetsclassic.com/images/items/food_spooky_soup.gif" title="Scary Soup">
-	    <img src="https://neopetsclassic.com/images/items/foo_slime_soup.gif" title="Slimy Pumpkin Soup">
-	    <img src="https://neopetsclassic.com/images/items/coff_eyeball_tea.gif" title="Eye of Mortog Soup">
-	    <img src="https://neopetsclassic.com/images/items/food_cream_soup.gif" title="Extra Creamy Soup">
-	    <img src="https://neopetsclassic.com/images/items/food_med_stonesoup.gif" title="Stone Soup">
-	    <img src="https://neopetsclassic.com/images/items/snow_ice_coffee.gif" title="Frozen Soup">
-	    <img src="https://neopetsclassic.com/images/items/foo_grarrl_salivasoup.gif" title="Grarrl Saliva Soup">
-	    <img src="https://neopetsclassic.com/images/items/tyr_primordialstew.gif" title="Primordial Stew">
-	    <img src="https://neopetsclassic.com/images/items/foo_fried_earthworm.gif" title="Fried Worm Stew">
-	    <img src="https://neopetsclassic.com/images/items/spf_spooky_ghostsoup.gif" title="Ghastly Stew">
-	    <img src="https://neopetsclassic.com/images/items/foo_stewed_elephante_nose.gif" title="Elephante Trunk Stew">
-	    <img src="https://neopetsclassic.com/images/items/med_meat_chunk.gif" title="Chunky Meat Stew">
-	    <img src="https://neopetsclassic.com/images/items/food_tyrannia_soup.gif" title="Tyrannian Goulash">
-	    <img src="https://neopetsclassic.com/images/items/foo_faerie_flakes.gif" title="Enchanting Strawberry Cereal">
-	    <img src="https://neopetsclassic.com/images/items/tyr_gravelcereal.gif" title="Gravel Cereal">
-	    <img src="https://neopetsclassic.com/images/items/foo_faerie_sparklecereal.gif" tilte="Sparkling Faerie Porridge">
-	    <img src="https://neopetsclassic.com/images/items/foo_porridge.gif" title="Thick Creamy Porridge">
-	    <img src="https://neopetsclassic.com/images/items/31084.gif" title="Plain Oatmeal">
-	    <img src="https://neopetsclassic.com/images/items/27717.gif" title="Apple Oatmeal">
-	    <img src="https://neopetsclassic.com/images/items/33375.gif" title="Cinnamon Raisin Oatmeal">
-	    <img src="https://neopetsclassic.com/images/items/food_gruel.gif" title="Gruel">
-	    <img src="https://neopetsclassic.com/images/items/ffo_faerieos.gif" title="Spaghetti Faerie Hoops">
-	    <img src="https://neopetsclassic.com/images/items/foo_spook_bonebowl.gif" title="Bowl-O-Bones">
+	    
+<span class="item"><img src="https://neopialive.s3.us-west-1.amazonaws.com/items/toy_bruce_plushie3.gif"><span style="position: absolute;">red bruce plushie</span></span>
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/book_bruce5.gif" title="bruces guide to combat eating">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/book_bruce4.gif" title="bruces magic guide">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/book_bruce2.gif" title="being bruce">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/toy_bruce_plushie4.gif" title="yellow bruce plushie">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/bananamilkshake.gif" title="banana milkshake">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/vanillamilkshake.gif" title="vanilla milkshake">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/bd_downsize.gif" title="downsize!">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/toy_bruce_plushie2.gif" title="green bruce plushie">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/book_bruce3.gif" title="guide to bruces">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/greentradingcardback.gif" title="kalora the kau">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/mintchoco_kau.gif" title="mint chocolate kau">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/fu_bruce_shroom.gif" title="sitting bruce gnome">
+	    <img src="https://neopialive.s3.us-west-1.amazonaws.com/items/stamp_snowy_rink.gif" title="rink runner stamp">
+
 	    
     </p>
 	  <p><center>click <a href="https://neopetsclassic.com/gallery/view/?username=soupfaerie">here</a> to visit</center></p>
   </div>
 
-  <button class="collapsible">kau kau farm</button>
-  <div class="content">
-    <p class="itm">
-	    <img src="https://neopetsclassic.com/images/items/chocmilk.gif" title="Chocolate Milk">
-	    <img src="https://neopetsclassic.com/images/items/lowfatmilk.gif" title="Low Fat Milk">
-	    <img src="https://neopetsclassic.com/images/items/bananamilkshake.gif" title="Banana Milkshake">
-	    <img src="https://neopetsclassic.com/images/items/vanillamilkshake.gif" title="Vanilla Milkshake">
-	    <img src="https://neopetsclassic.com/images/items/starwberrymilkshake.gif" title="Strawberry Milkshake">
-	    <img src="https://neopetsclassic.com/images/items/fo_kaupie_red.gif" title="Strawberry Kau Cream Cake">
-	    <img src="https://neopetsclassic.com/images/items/13403.gif" title="Red Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/15691.gif" title="Yellow Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/15695.gif" title="Green Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/blue-kau-morphing-potion.gif" title="Blue Kau Morphing Potion">
-	    <img src="https://images.neopets.com/items/pot_kau_hall.gif" title="Halloween Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/14785.gif" title="Baby Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/pot_kau_darigan.gif" title="Darigan Kau Morphing Potion">
-	    <img src="https://neopetsclassic.com/images/items/sno_shavedice_milk.gif" tilte="Milk Shaved Ice">
-	    <img src="https://neopetsclassic.com/images/items/food_cowicecream.gif" title="Milky Moo Ice Lolly">
-	    <img src="https://neopetsclassic.com/images/items/book_kau_pies.gif" title="Kau Pies">
-	    <img src="https://neopetsclassic.com/images/items/plu_kau_fire.gif" title="Fire Kau Plushie">
-	    <img src="https://neopetsclassic.com/images/items/toy_kauhalloween.gif" title="Halloween Kau Plushie">
-	    <img src="https://neopetsclassic.com/images/items/clo_tengallon_hat.gif" title="Ten Gallon Hat">
 
- 
-    </p>
-	  
-	   <p><center>click <a href="https://neopetsclassic.com/gallery/view/?username=zehra">here</a> to visit</center></p>
-  </div>
-	
-	  <button class="collapsible">burger barn</button>
-  <div class="content">
-    <p class="itm">
-	    <img src="https://neopetsclassic.com/images/items/cheeseburger.gif" title="Cheeseburger">
-	    <img src="https://neopetsclassic.com/images/items/veggiecheeseburger.gif" title="Vegetarian Cheeseburger">
-	    <img src="https://neopetsclassic.com/images/items/fatboyburger.gif" title="Ultimate Cheeseburger">
-	    <img src="https://neopetsclassic.com/images/items/foo_beastburger.gif" title="Beast Burger">
-	    <img src="https://neopetsclassic.com/images/items/foo_illusen_burger.gif" title="Illusen Day Burger">
-	    <img src="https://neopetsclassic.com/images/items/foo_faerie_burger.gif" title="Rainbow Fountain Burger">
-
- 
-    </p>
-	  
-	   <p><center>click <a href="https://neopetsclassic.com/gallery/view/?username=z">here</a> to visit</center></p>
-  </div>
-  
-  <button class="collapsible">brucicle emporium</button>
-  <div class="content">
-    <p class="itm">
-	    
-	    
-	    <img src="https://neopetsclassic.com/images/items/food_rainbowbrucicle.gif" title="Fruity Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_spotted.gif" title="Lutango Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/food_yellowbrucicle.gif" title="Lemon Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_gold.gif" title="Florange Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_blunella.gif" title="Blunella Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/food_greenbrucicle.gif" title="Lime Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_electric.gif" title="Blurf Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_chokato.gif" title="Chokato Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_jelly.gif" title="Grape Jelly Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_flatfruit.gif" title="Flatfruit Brucicle"> 
-	    <img src="https://neopetsclassic.com/images/items/food_brownbrucicle.gif" title="Chocolate Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_haunted.gif" title="Haunted Brucicle">
-	    <img src="https://neopetsclassic.com/images/items/foo_brucicle_checkered.gif" title="Grunion Brucicle">
-      
-    </p>
-	  
-	   <p><center>click <a href="https://neopetsclassic.com/gallery/view/?username=santa">here</a> to visit</center></p>
-  </div>
-  
   <button class="collapsible">wishlist</button>
   
   <div class="content">
@@ -537,16 +474,16 @@ b {
   <h3>about me</h3>
   <b>name</b> zehra (she/her)<br>
 <b>timezone</b> NST+2<br>
-<b>age</b> 23<br>
+<b>age</b> 24<br>
 <b>astro</b> virgo sun, gemini moon, libra rising<br>
 <b>mbti</b> infj<br>
 <b>enneagram</b> 2w1<br>
-<b>fav foods</b> sesame chicken, sushi, soup, snowcones<br>
-<b>fav drinks</b> water, strawberry milk, vanilla milk<br>
+<b>fav foods</b> soup, sushi<br>
+<b>fav drinks</b> coke, strawberry milk<br>
 <b>fav animals</b> sea otters, orcas, polar bears<br>
 <b>fav movie</b> the graduate<br>
 <b>fav shows</b> cheers, twin peaks<br>
-<b>fav musical artists</b> the beatles, animal collective, pavement, vundabar, mgmt, elton john
+<b>fav musical artists</b> pavement, animal collective, the clash, fugazi, beach fossils
   </div>
 </div>
   
